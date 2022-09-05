@@ -1,0 +1,48 @@
+@import"./node_modules/bootstrap/scss/bootstrap.scss";
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+footer{
+    background-color: #121f3d; 
+   }
+   footer a{
+     color: white;
+     text-decoration: none;
+     
+   }
+
+//    div{
+//        border: 1px solid white;
+//    }
+   #header img{
+    width: 80px;
+    color: white;
+   }
+   #header a{
+    color: white;
+   }
+   .text-platzi{
+    color: #97c93e!important;
+   }
+   #main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+   }
+   #carousel{
+    position: relative;
+   }
+   #carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+   }
+
+.btn-platzi{
+    background-color: #97c93e;
+}
